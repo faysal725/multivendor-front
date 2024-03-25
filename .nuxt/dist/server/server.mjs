@@ -1,0 +1,1 @@
+export { default } from "file:///D:/Web%20Development/digiMount/multivendor_front/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

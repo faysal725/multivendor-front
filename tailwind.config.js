@@ -1,0 +1,46 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+    "./app.vue",
+  ],
+  theme: {
+    extend: {},
+    colors:  {
+      'primary-col': '#002424FF',
+      'logo-col': '#03d9da',
+      'overlay': '#1E1E1E',
+      'primaryText': '#111827',
+      'white': '#FFFF',
+      'steel': '#f1f5f9',
+      'red': '#E02E52',
+      'warningRed':'#FF2525',
+      'green':  '#4BA14B',
+      'lightGreen': '#1CAF5E',
+      'lime': '#A8D440',
+      'yellow': '#EDD80C',
+      'barley': '#fdd670',
+      'orange': '#F97316',
+      'lightBlue': "#e8f3ff",
+      'mediumBlue': '#2377F3',
+      'mediumGray': '#F3F4F6',
+      'gray': '#F9FAFB',
+      'lightGray': '#ECEFEF',
+      'black':'#071E33',
+      'lightBlack': '#292A31',
+      'darkGray': '#374151',
+      'transparent': '#ff000000',
+      'transparent-black': '#1F2937',
+      'secondary-col': '#6B7280',
+      'cart-button-col': '#292A31',
+      'dark-border': '#1F2937',
+      'light-border': '#E5E7EB',
+    }
+
+  },
+  plugins: [],
+}
